@@ -4,6 +4,10 @@ class Pages {
 
   }
 
+  public function index() {
+    echo 'Hello World';
+  }
+
   public function about($id) {
     echo $id;
   }
